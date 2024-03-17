@@ -15,5 +15,21 @@ const user_login = new mong.Schema({
     }
 })
 
+const recipie_d = new mong.Schema({
+   title :{
+    type : String , 
+   },
+   category : {
+    type : String ,
+   },
+   ingredients :{
+    type : String ,
+   }, 
+   description : {
+    type : String,
+   }
+})
+
 const login_details = mong.model('user-details' , user_login)
-module.exports = {login_details}
+const recipie_details = mong.model('recipie-details' , recipie_d)
+module.exports = {login_details , recipie_details}

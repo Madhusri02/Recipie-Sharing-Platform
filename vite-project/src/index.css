@@ -1,0 +1,148 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ******************ADD RECIPIE *******************************/
+
+:root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+  }
+  /* header{
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  header h1{
+    margin: 0;
+  }
+  header ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    gap: 20px;
+  } */
+  
+  
+  
+  /* add recipes */
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  #form{
+    padding: 50px 5px 10px 30px;
+  }
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    margin: 0 auto;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    gap:20px;
+  }
+  
+  .menu-bar {
+    display: flex;
+    flex-direction: column;
+    width:10%;
+    background-color: blanchedalmond;
+    border-radius: 0% 20% 20% 0%;
+  
+  }
+  
+  .bar img {
+    width:30px;
+    height: 30px;
+    display: block;
+    margin-top:20px;
+    margin-left: 10px;
+  }
+  .icons img{
+    width:30px;
+    height: 30px;
+    display: block;
+    margin: 0 0 0 20px;
+  }
+  
+  .form-container {
+    margin-top: 20px;
+    width:50% ;
+    padding: 10px;
+    height: 100%;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    display: flex;
+    font-size: x-large;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input[type="text"],
+  .form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .form-group textarea {
+    height: 100px; /* Adjust height as needed */
+  }
+  #title{
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px rgb(209, 209, 205);
+  }
+  #category{
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px rgb(209, 209, 205);
+  }
+  #ingredients{
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px rgb(209, 209, 205);
+  }
+  #description{
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px rgb(209, 209, 205);
+  }
+  .button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .image {
+    display: flex;
+    width: 40%; 
+    padding: 10px;
+  }
+  
+  .image img {
+    height: 100%;
+    width: 100%;
+  }
+  #submit{
+    margin: 20px 20px 20px 170px;
+    padding:18px 15px;
+    border-radius: 20px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+  }
