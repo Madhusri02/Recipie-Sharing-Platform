@@ -23,12 +23,9 @@ const Landing = () => {
        <div className='absolute left-6  top-20'><img className='w-10' src={menu} alt="" /></div>
         <Link to="/landing" >  <div className='absolute top-20 left-20 font-semibold mt-2 '>Overview</div> </Link>
        <div className='absolute left-5 top-32'><img className='w-12' src={spoon} alt="" /></div>
-<<<<<<< HEAD
+
        <Link to="/recipie-details" >  <div className='absolute left-20 font-semibold top-32  mt-2'>Recipes</div> </Link>
-=======
-       <Link to="/allrecipies" >  <div className='absolute left-20 font-semibold top-32  mt-2'>Recipes</div> </Link>
->>>>>>> 19ecc7bf4cf77f01961615a980661c1708c1db83
-       
+       <Link to="/allrecipies" >  <div className='absolute left-20 font-semibold top-32  mt-2'>Recipes</div> </Link>       
        
        <div className='absolute left-7 top-44 mt-2'><img className='w-9 mt-2' src={settings} alt="" /></div>
           <Link to='/add-recipie'> <div className='absolute left-17 font-semibold top-44 ml-20 mt-3'>Create <br /> Recipie</div>  </Link> 
