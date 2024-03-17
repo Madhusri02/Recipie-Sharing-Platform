@@ -114,3 +114,18 @@
 .p-div{
   margin-top: 15px;
 }
+
+.error {
+  color: red;
+  font-size: 12px;
+  margin: 0 0 0.75rem 0;
+}
+
+.error-down {
+  color: green;
+  font-size: 12px;
+  margin: 0 0 0.75rem 0;
+}
+
+
+/*  ********************ADD RECIPIE ************************************/
