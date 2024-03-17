@@ -17,10 +17,10 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route  path="/login"  element={<Login />} /> 
-        <Route path="/" element={<SignupForm />} /> 
+        <Route path="/signup" element={<SignupForm />} /> 
         <Route path="/add-recipie" element={<Recipie_adding />} /> 
         <Route path="/landing" element={<Landing/>} /> 
-        <Route path="/allrecipies" element={<All_Recipie/>} /> 
+        <Route path="/recipie-details" element={<All_Recipie/>} /> 
         <Route path="/contest" element={<Challenges/>} /> 
         {/* <Route path="/recipie-details" element={<Recipie_adding />} />  */}
       </Routes>
